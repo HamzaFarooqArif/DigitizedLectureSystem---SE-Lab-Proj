@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBase8Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Announcement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="Text" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="School_Id" Type="int" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MaterialResource">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Length" Type="float" Nullable="false" />
+    <Property Name="Content" Type="varbinary(max)" Nullable="false" />
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Classid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Summary" Type="nvarchar" MaxLength="50" />
+    <Property Name="Details" Type="nvarchar(max)" />
+    <Property Name="Picture" Type="varbinary(max)" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="class_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProfilePicture" Type="varbinary(max)" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="50" />
+    <Property Name="DateOfBirth" Type="date" />
+    <Property Name="RelationshipStatus" Type="varchar" MaxLength="50" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalInfo" Type="varchar" MaxLength="150" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" MaxLength="50" />
+    <Property Name="NumberOfClassesEnrolled" Type="int" />
+  </EntityType>
+  <EntityType Name="SchoolTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="StudentClassOTM">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Student_Id" Type="int" />
+    <Property Name="Class_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="StudentTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TeacherClassOTM">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Teacher_Id" Type="int" />
+    <Property Name="Class_Id" Type="int" />
+  </EntityType>
+  <EntityType Name="TeacherTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_ClassTbl_SchoolTbl">
+    <End Role="SchoolTbl" Type="Self.SchoolTbl" Multiplicity="0..1" />
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassTbl">
+        <PropertyRef Name="School_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_ClassTbl">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="class_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentClassOTM_ClassTbl1">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="StudentClassOTM" Type="Self.StudentClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClassOTM">
+        <PropertyRef Name="Class_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentClassOTM_StudentTbl">
+    <End Role="StudentTbl" Type="Self.StudentTbl" Multiplicity="0..1" />
+    <End Role="StudentClassOTM" Type="Self.StudentClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClassOTM">
+        <PropertyRef Name="Student_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassOTM_ClassTbl">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="TeacherClassOTM" Type="Self.TeacherClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeacherClassOTM">
+        <PropertyRef Name="Class_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassOTM_TeacherTbl">
+    <End Role="TeacherTbl" Type="Self.TeacherTbl" Multiplicity="0..1" />
+    <End Role="TeacherClassOTM" Type="Self.TeacherClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TeacherTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeacherClassOTM">
+        <PropertyRef Name="Teacher_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataBase8ModelStoreContainer">
+    <EntitySet Name="Announcement" EntityType="Self.Announcement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassTbl" EntityType="Self.ClassTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MaterialResource" EntityType="Self.MaterialResource" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Post" EntityType="Self.Post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SchoolTbl" EntityType="Self.SchoolTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentClassOTM" EntityType="Self.StudentClassOTM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentTbl" EntityType="Self.StudentTbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherClassOTM" EntityType="Self.TeacherClassOTM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherTbl" EntityType="Self.TeacherTbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ClassTbl_SchoolTbl" Association="Self.FK_ClassTbl_SchoolTbl">
+      <End Role="SchoolTbl" EntitySet="SchoolTbl" />
+      <End Role="ClassTbl" EntitySet="ClassTbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_ClassTbl" Association="Self.FK_Post_ClassTbl">
+      <End Role="ClassTbl" EntitySet="ClassTbl" />
+      <End Role="Post" EntitySet="Post" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentClassOTM_ClassTbl1" Association="Self.FK_StudentClassOTM_ClassTbl1">
+      <End Role="ClassTbl" EntitySet="ClassTbl" />
+      <End Role="StudentClassOTM" EntitySet="StudentClassOTM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentClassOTM_StudentTbl" Association="Self.FK_StudentClassOTM_StudentTbl">
+      <End Role="StudentTbl" EntitySet="StudentTbl" />
+      <End Role="StudentClassOTM" EntitySet="StudentClassOTM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassOTM_ClassTbl" Association="Self.FK_TeacherClassOTM_ClassTbl">
+      <End Role="ClassTbl" EntitySet="ClassTbl" />
+      <End Role="TeacherClassOTM" EntitySet="TeacherClassOTM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassOTM_TeacherTbl" Association="Self.FK_TeacherClassOTM_TeacherTbl">
+      <End Role="TeacherTbl" EntitySet="TeacherTbl" />
+      <End Role="TeacherClassOTM" EntitySet="TeacherClassOTM" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/Content/animate.css">
+    <link rel="stylesheet" href="/Content/owl.carousel.min.css">
+    <link rel="stylesheet" href="/Content/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/Content/aos.css">
+    <link rel="stylesheet" href="/Content/ionicons.min.css">
+    <link rel="stylesheet" href="/Content/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/Content/jquery.timepicker.css">
+    <link rel="stylesheet" href="/Content/flaticon.css">
+    <link rel="stylesheet" href="/Content/icomoon.css">
+    
+    
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .navLink
+        {
+            color: #D5E3EE!important;
+            font-weight: bold;
+        }
+        .navLink:hover
+        {
+            color: #000!important;
+        }
+
+        .footerInfo
+        {
+            color: #EEEEEE;
+        }
+    </style>
+</head>
+
+
+
+
+}
+<body>
+    <div class="navbar navbar-header navbar-fixed-top" style="background-color:#3E7AAB;">
+        <div class="container">
+            <div class="navbar-header">
+                @*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>*@
+                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @*<li>@Html.ActionLink("Home", "Index", "Home", new { @class = "navLink" })</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { @class = "navLink" })</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "navLink" })</li>*@
+                    <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("Index", "Home")>Home</a></li>
+                    <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("About", "Home")>About</a></li>
+                    <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("Contact", "Home")>Contact</a></li>
+                    
+                    
+                </ul>
+                @*<div style="border:1px solid; width: 100px;">
+                    
+                </div>*@
+                
+                
+               
+               
+               
+
+
+                @*<h4 class="text-right">@DLSInterface.loggedEmail <a class="btn btn-default" href="@Url.Action("Login", "Person")">@LogText</a></h4>*@
+            </div>
+           
+        </div>
+    </div>
+   
+        
+
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            
+        </div>
+    
+        
+    
+
+    <script src="/Scripts/jquery.min.js"></script>
+    <script src="/Scripts/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/Scripts/popper.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/jquery.easing.1.3.js"></script>
+    <script src="/Scripts/jquery.waypoints.min.js"></script>
+    <script src="/Scripts/jquery.stellar.min.js"></script>
+    <script src="/Scripts/owl.carousel.min.js"></script>
+    <script src="/Scripts/jquery.magnific-popup.min.js"></script>
+    <script src="/Scripts/aos.js"></script>
+    <script src="/Scripts/jquery.animateNumber.min.js"></script>
+    <script src="/Scripts/bootstrap-datepicker.js"></script>
+    <script src="/Scripts/jquery.timepicker.min.js"></script>
+    <script src="/Scripts/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="/Scripts/google-map.js"></script>
+    <script src="/Scripts/main.js"></script>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+
+
+    <footer class="ftco-footer ftco-section img" style="background-color: #376D99; color: #FFF;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">About Us</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                            <li class="ftco-animate"><a class="footerInfo" href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a class="footerInfo" href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a class="footerInfo" href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Recent Blog</h2>
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                            <div class="text">
+                                <h3 class="heading"><a class="footerInfo" href="#">Even the all-powerful Pointing has no control about</a></h3>
+                                <div class="meta">
+                                    <div><a class="footerInfo" href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                                    <div><a class="footerInfo" href="#"><span class="icon-person"></span> Admin</a></div>
+                                    <div><a class="footerInfo" href="#"><span class="icon-chat"></span> 19</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block-21 mb-4 d-flex">
+                            <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                            <div class="text">
+                                <h3 class="heading"><a class="footerInfo" href="#">Even the all-powerful Pointing has no control about</a></h3>
+                                <div class="meta">
+                                    <div><a class="footerInfo" href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+                                    <div><a class="footerInfo" href="#"><span class="icon-person"></span> Admin</a></div>
+                                    <div><a class="footerInfo" href="#"><span class="icon-chat"></span> 19</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2">Services</h2>
+                        <ul class="list-unstyled">
+                            <li><a class="footerInfo" href="#" class="py-2 d-block">Cooked</a></li>
+                            <li><a class="footerInfo" href="#" class="py-2 d-block">Deliver</a></li>
+                            <li><a class="footerInfo" href="#" class="py-2 d-block">Quality Foods</a></li>
+                            <li><a class="footerInfo" href="#" class="py-2 d-block">Mixed</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                                <li><a class="footerInfo" href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                                <li><a class="footerInfo" href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

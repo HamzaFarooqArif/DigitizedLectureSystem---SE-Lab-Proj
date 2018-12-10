@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataBase8Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Announcement">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherId" Type="Int32" Nullable="false" />
+    <Property Name="ClassId" Type="Int32" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ClassTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="School_Id" Type="Int32" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SchoolTbl" Relationship="Self.FK_ClassTbl_SchoolTbl" FromRole="ClassTbl" ToRole="SchoolTbl" />
+    <NavigationProperty Name="Posts" Relationship="Self.FK_Post_ClassTbl" FromRole="ClassTbl" ToRole="Post" />
+    <NavigationProperty Name="StudentClassOTMs" Relationship="Self.FK_StudentClassOTM_ClassTbl1" FromRole="ClassTbl" ToRole="StudentClassOTM" />
+    <NavigationProperty Name="TeacherClassOTMs" Relationship="Self.FK_TeacherClassOTM_ClassTbl" FromRole="ClassTbl" ToRole="TeacherClassOTM" />
+  </EntityType>
+  <EntityType Name="MaterialResource">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Length" Type="Double" Nullable="false" />
+    <Property Name="Content" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="TeacherId" Type="Int32" Nullable="false" />
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Classid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Summary" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="class_id" Type="Int32" />
+    <NavigationProperty Name="ClassTbl" Relationship="Self.FK_Post_ClassTbl" FromRole="Post" ToRole="ClassTbl" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProfilePicture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
+    <Property Name="RelationshipStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalInfo" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NumberOfClassesEnrolled" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SchoolTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ClassTbls" Relationship="Self.FK_ClassTbl_SchoolTbl" FromRole="SchoolTbl" ToRole="ClassTbl" />
+  </EntityType>
+  <EntityType Name="StudentClassOTM">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Student_Id" Type="Int32" />
+    <Property Name="Class_Id" Type="Int32" />
+    <NavigationProperty Name="ClassTbl" Relationship="Self.FK_StudentClassOTM_ClassTbl1" FromRole="StudentClassOTM" ToRole="ClassTbl" />
+    <NavigationProperty Name="StudentTbl" Relationship="Self.FK_StudentClassOTM_StudentTbl" FromRole="StudentClassOTM" ToRole="StudentTbl" />
+  </EntityType>
+  <EntityType Name="StudentTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="StudentClassOTMs" Relationship="Self.FK_StudentClassOTM_StudentTbl" FromRole="StudentTbl" ToRole="StudentClassOTM" />
+  </EntityType>
+  <EntityType Name="TeacherClassOTM">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Teacher_Id" Type="Int32" />
+    <Property Name="Class_Id" Type="Int32" />
+    <NavigationProperty Name="ClassTbl" Relationship="Self.FK_TeacherClassOTM_ClassTbl" FromRole="TeacherClassOTM" ToRole="ClassTbl" />
+    <NavigationProperty Name="TeacherTbl" Relationship="Self.FK_TeacherClassOTM_TeacherTbl" FromRole="TeacherClassOTM" ToRole="TeacherTbl" />
+  </EntityType>
+  <EntityType Name="TeacherTbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TeacherClassOTMs" Relationship="Self.FK_TeacherClassOTM_TeacherTbl" FromRole="TeacherTbl" ToRole="TeacherClassOTM" />
+  </EntityType>
+  <Association Name="FK_ClassTbl_SchoolTbl">
+    <End Role="SchoolTbl" Type="Self.SchoolTbl" Multiplicity="0..1" />
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SchoolTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassTbl">
+        <PropertyRef Name="School_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Post_ClassTbl">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="Post" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Post">
+        <PropertyRef Name="class_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentClassOTM_ClassTbl1">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="StudentClassOTM" Type="Self.StudentClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClassOTM">
+        <PropertyRef Name="Class_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassOTM_ClassTbl">
+    <End Role="ClassTbl" Type="Self.ClassTbl" Multiplicity="0..1" />
+    <End Role="TeacherClassOTM" Type="Self.TeacherClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClassTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeacherClassOTM">
+        <PropertyRef Name="Class_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentClassOTM_StudentTbl">
+    <End Role="StudentTbl" Type="Self.StudentTbl" Multiplicity="0..1" />
+    <End Role="StudentClassOTM" Type="Self.StudentClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClassOTM">
+        <PropertyRef Name="Student_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherClassOTM_TeacherTbl">
+    <End Role="TeacherTbl" Type="Self.TeacherTbl" Multiplicity="0..1" />
+    <End Role="TeacherClassOTM" Type="Self.TeacherClassOTM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TeacherTbl">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeacherClassOTM">
+        <PropertyRef Name="Teacher_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SE_ProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Announcements" EntityType="Self.Announcement" />
+    <EntitySet Name="ClassTbls" EntityType="Self.ClassTbl" />
+    <EntitySet Name="MaterialResources" EntityType="Self.MaterialResource" />
+    <EntitySet Name="Posts" EntityType="Self.Post" />
+    <EntitySet Name="Profiles" EntityType="Self.Profile" />
+    <EntitySet Name="SchoolTbls" EntityType="Self.SchoolTbl" />
+    <EntitySet Name="StudentClassOTMs" EntityType="Self.StudentClassOTM" />
+    <EntitySet Name="StudentTbls" EntityType="Self.StudentTbl" />
+    <EntitySet Name="TeacherClassOTMs" EntityType="Self.TeacherClassOTM" />
+    <EntitySet Name="TeacherTbls" EntityType="Self.TeacherTbl" />
+    <AssociationSet Name="FK_ClassTbl_SchoolTbl" Association="Self.FK_ClassTbl_SchoolTbl">
+      <End Role="SchoolTbl" EntitySet="SchoolTbls" />
+      <End Role="ClassTbl" EntitySet="ClassTbls" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Post_ClassTbl" Association="Self.FK_Post_ClassTbl">
+      <End Role="ClassTbl" EntitySet="ClassTbls" />
+      <End Role="Post" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentClassOTM_ClassTbl1" Association="Self.FK_StudentClassOTM_ClassTbl1">
+      <End Role="ClassTbl" EntitySet="ClassTbls" />
+      <End Role="StudentClassOTM" EntitySet="StudentClassOTMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassOTM_ClassTbl" Association="Self.FK_TeacherClassOTM_ClassTbl">
+      <End Role="ClassTbl" EntitySet="ClassTbls" />
+      <End Role="TeacherClassOTM" EntitySet="TeacherClassOTMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentClassOTM_StudentTbl" Association="Self.FK_StudentClassOTM_StudentTbl">
+      <End Role="StudentTbl" EntitySet="StudentTbls" />
+      <End Role="StudentClassOTM" EntitySet="StudentClassOTMs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherClassOTM_TeacherTbl" Association="Self.FK_TeacherClassOTM_TeacherTbl">
+      <End Role="TeacherTbl" EntitySet="TeacherTbls" />
+      <End Role="TeacherClassOTM" EntitySet="TeacherClassOTMs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

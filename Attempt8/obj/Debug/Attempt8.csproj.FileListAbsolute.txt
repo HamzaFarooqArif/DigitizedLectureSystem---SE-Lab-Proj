@@ -1,0 +1,621 @@
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\csc.exe
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\vbc.exe
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.dll.config
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.pdb
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Antlr3.Runtime.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.SqlServer.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Newtonsoft.Json.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Owin.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Helpers.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Mvc.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Optimization.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Razor.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\WebGrease.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Helpers.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Mvc.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Optimization.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Razor.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Antlr3.Runtime.pdb
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Newtonsoft.Json.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.SqlServer.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.dll
+c:\users\hamza ch\documents\visual studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\csc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.dll.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\WebGrease.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\csc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Attempt8.dll.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\WebGrease.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\csc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Attempt8.dll.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\WebGrease.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\csc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Attempt8.dll.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\WebGrease.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\attempt 9\Attempt8\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\csc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Attempt8.dll.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\WebGrease.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\csc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Attempt8.dll.config
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Attempt8.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Owin.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\WebGrease.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Hamza Chaudhury\Desktop\project\Attempt8_2_2\Attempt8\obj\Debug\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\csc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\vbc.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Attempt8.dll.config
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Attempt8.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Antlr3.Runtime.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\EntityFramework.SqlServer.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Newtonsoft.Json.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Owin.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Helpers.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Mvc.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Optimization.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\WebGrease.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Helpers.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Mvc.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Optimization.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Antlr3.Runtime.pdb
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Newtonsoft.Json.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\EntityFramework.SqlServer.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\obj\Debug\Attempt8.dll
+C:\Users\Dc\Documents\Visual Studio 2015\Projects\commit 8\Attempt8\obj\Debug\Attempt8.pdb
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\csc.exe
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\System.Collections.Immutable.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\System.Reflection.Metadata.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\vbc.exe
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\VBCSCompiler.exe
+E:\CS-5\SE\Final\commit1\Attempt8\bin\roslyn\VBCSCompiler.exe.config
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Attempt8.dll.config
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Attempt8.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Attempt8.pdb
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Antlr3.Runtime.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\EntityFramework.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\EntityFramework.SqlServer.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Google.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Web.Infrastructure.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Newtonsoft.Json.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Owin.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Helpers.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Mvc.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Optimization.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Razor.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.Deployment.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.Razor.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\WebGrease.dll
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Helpers.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Mvc.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Optimization.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.Razor.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.Deployment.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\System.Web.WebPages.Razor.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Antlr3.Runtime.pdb
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Newtonsoft.Json.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\EntityFramework.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\EntityFramework.SqlServer.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Google.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CS-5\SE\Final\commit1\Attempt8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CS-5\SE\Final\commit1\Attempt8\obj\Debug\Attempt8.csprojResolveAssemblyReference.cache
+E:\CS-5\SE\Final\commit1\Attempt8\obj\Debug\Attempt8.dll
+E:\CS-5\SE\Final\commit1\Attempt8\obj\Debug\Attempt8.pdb

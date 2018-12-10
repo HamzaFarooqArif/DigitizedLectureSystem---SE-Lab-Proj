@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataBase8ModelStoreContainer" CdmEntityContainer="SE_ProjectEntities">
+    <EntitySetMapping Name="Announcements">
+      <EntityTypeMapping TypeName="DataBase8Model.Announcement">
+        <MappingFragment StoreEntitySet="Announcement">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClassTbls">
+      <EntityTypeMapping TypeName="DataBase8Model.ClassTbl">
+        <MappingFragment StoreEntitySet="ClassTbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="School_Id" ColumnName="School_Id" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialResources">
+      <EntityTypeMapping TypeName="DataBase8Model.MaterialResource">
+        <MappingFragment StoreEntitySet="MaterialResource">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Length" ColumnName="Length" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Classid" ColumnName="Classid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posts">
+      <EntityTypeMapping TypeName="DataBase8Model.Post">
+        <MappingFragment StoreEntitySet="Post">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="class_id" ColumnName="class_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="DataBase8Model.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ProfilePicture" ColumnName="ProfilePicture" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="RelationshipStatus" ColumnName="RelationshipStatus" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="PersonalInfo" ColumnName="PersonalInfo" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="NumberOfClassesEnrolled" ColumnName="NumberOfClassesEnrolled" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolTbls">
+      <EntityTypeMapping TypeName="DataBase8Model.SchoolTbl">
+        <MappingFragment StoreEntitySet="SchoolTbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentClassOTMs">
+      <EntityTypeMapping TypeName="DataBase8Model.StudentClassOTM">
+        <MappingFragment StoreEntitySet="StudentClassOTM">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Class_Id" ColumnName="Class_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentTbls">
+      <EntityTypeMapping TypeName="DataBase8Model.StudentTbl">
+        <MappingFragment StoreEntitySet="StudentTbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TeacherClassOTMs">
+      <EntityTypeMapping TypeName="DataBase8Model.TeacherClassOTM">
+        <MappingFragment StoreEntitySet="TeacherClassOTM">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Teacher_Id" ColumnName="Teacher_Id" />
+          <ScalarProperty Name="Class_Id" ColumnName="Class_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TeacherTbls">
+      <EntityTypeMapping TypeName="DataBase8Model.TeacherTbl">
+        <MappingFragment StoreEntitySet="TeacherTbl">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
