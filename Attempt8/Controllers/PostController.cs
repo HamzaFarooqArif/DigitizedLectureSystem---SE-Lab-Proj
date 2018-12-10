@@ -110,10 +110,15 @@ namespace Attempt8.Controllers
         // GET: Post/Edit/5
         public ActionResult Edit(int id)
         {
-           
+            EditViewModels l = new EditViewModels();
+            SE_ProjectEntities db = new SE_ProjectEntities();
+            Post p = db.Posts.Find(id);
+            DLSInterface.image = p.Picture;
+            l.summary = p.Summary;
+            l.details = p.Details;
              
 
-            return View();
+            return View(l);
         }
 
         // POST: Post/Edit/5
@@ -122,7 +127,35 @@ namespace Attempt8.Controllers
         {
             try
             {
-                return View();   
+                if(file != null)
+                {
+                    var bs = new byte[file.ContentLength];
+                    using (var fs = file.InputStream)
+                    {
+                        var offset = 0;
+                        do
+                        {
+                            offset += fs.Read(bs, offset, bs.Length - offset);
+                        } while (offset < bs.Length);
+                    }
+                    DLSInterface.image = bs;
+                    return View();
+
+                }
+                else
+                {
+                    SE_ProjectEntities db = new SE_ProjectEntities();
+                    db.Posts.Find(id).Summary = e.summary;
+                    db.Posts.Find(id).Details = e.details;
+                    db.Posts.Find(id).Picture = DLSInterface.image;
+                    db.SaveChanges();
+                    DLSInterface.image = null;
+                    return RedirectToAction("Index");
+                }
+                
+                
+
+                
             }
             catch
             {
@@ -135,7 +168,10 @@ namespace Attempt8.Controllers
         {
             try
             {
-               
+                SE_ProjectEntities db = new SE_ProjectEntities();
+                Post p = db.Posts.Find(id);
+                db.Posts.Remove(p);
+                db.SaveChanges();
                 return RedirectToAction("Index", "Post");
 
             }

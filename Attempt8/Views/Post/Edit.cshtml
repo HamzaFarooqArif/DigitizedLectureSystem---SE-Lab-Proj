@@ -1,0 +1,74 @@
+﻿@model Attempt8.Models.EditViewModels
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm("Edit",
+                                                "Post",
+                                                FormMethod.Post,
+                                                new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>EditViewModels</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.summary, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.summary, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.summary, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.details, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.details, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.details, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <dl>
+            <dd>
+                @if (DLSInterface.image != null)
+                {
+                    var base64 = Convert.ToBase64String(DLSInterface.image);
+                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@imgSrc" />
+                }
+            </dd>
+        </dl>
+        
+    </div>
+   
+
+
+
+        {
+            <input type="file" name="file" id="file" /><br><br>
+            <input type="submit" value="Confirm Image" />
+            <br><br>
+        }
+
+     <div>
+         <input type="submit" value="Post" />
+     </div>
+
+
+    }
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}           
