@@ -54,7 +54,7 @@
     
     string newsFeedActive = "false";
     string resourcesActive = "false";
-   
+    string announcementActive = "false";
 
     
 
@@ -63,7 +63,7 @@
         
         newsFeedActive = "active";
         resourcesActive = "false";
-       
+        announcementActive = "false";
     }
 
     if(controllerName.Equals("Resources"))
@@ -71,9 +71,15 @@
        
         newsFeedActive = "false";
         resourcesActive = "active";
-       
+        announcementActive = "false";
     }
-   
+    if (controllerName.Equals("Announcement"))
+    {
+        announcementActive = "active";
+        newsFeedActive = "false";
+        resourcesActive = "false";
+
+
     }
 
 
@@ -135,7 +141,7 @@
             <ul class="nav nav-pills">
                 <li class="@newsFeedActive">@Html.ActionLink("News Feed", "Index", "Post")</li>
                 <li class="@resourcesActive">@Html.ActionLink("Resources", "Index", "Resources")</li>
-               
+                <li class="@announcementActive">@Html.ActionLink("Announcements", "Index", "Announcement")</li>
             </ul>
         </nav>
     }

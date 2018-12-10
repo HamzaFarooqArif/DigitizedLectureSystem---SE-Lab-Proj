@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Attempt8.Models.AnnouncementViewModels>
+@{
+    ViewBag.Title = "Announcement";
+}
+
+<h2 class="text-center">Announcement</h2>
+@if (DLSInterface.isTeacher(DLSInterface.loggedEmail))
+{
+    <div>
+        <a class="btn btn-primary" href=@Url.Action("Create", "Announcement")>New Announcement</a>
+        
+
+
+    </div>
+    <br />
+    <br />
+
+}
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <div style="border:5px solid #3E7AAB; border-radius: 5px; padding: 10px;">
+            <dl class="dl-horizontal">
+                <!--<dt>
+                    @Html.DisplayNameFor(model => model.id)
+                </dt>-->
+                <!--<dd>
+                    @Html.DisplayFor(model => item.id)
+                </dd>-->
+                <!--<dt>
+                    @Html.DisplayNameFor(model => model.TeacherId)
+                </dt>-->
+                <!--<dd>
+                    @Html.DisplayFor(model => item.TeacherId)
+                </dd>-->
+
+                <!--<dt>
+                    @Html.DisplayNameFor(model => model.Text)
+                </dt>-->
+
+                <dd>
+                    @Html.DisplayFor(model => item.Text)
+                </dd>
+               
+
+
+            </dl>
+            @if ((DLSInterface.isTeacher(DLSInterface.loggedEmail)) && (item.TeacherId == DLSInterface.GetIdByEmail(DLSInterface.loggedEmail)))
+            {
+                <a class="btn btn-primary" href=@Url.Action("Delete", "Announcement", new { id = item.id })>Delete</a>
+            }
+        </div>
+        <br />
+    }
+}
+
+
