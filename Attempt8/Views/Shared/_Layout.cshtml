@@ -39,7 +39,23 @@
     </style>
 </head>
 
+@{
+    string emailShow = "";
+    string LogText = "Login";
+    if(DLSInterface.loggedEmail != null)
+    {
+        emailShow = DLSInterface.loggedEmail;
+        LogText = "Logout";
+    }
 
+    string actionName = DLSInterface.getActionName(Request.RawUrl);
+    string controllerName = DLSInterface.getControllerName(Request.RawUrl);
+
+   
+    
+
+   
+    }
 
 
 }
@@ -70,8 +86,12 @@
                 </div>*@
                 
                 
-               
-               
+                <h4 class="text-right"><a class="btn btn-default" href=@Url.Action("Login", "Person")>@LogText</a></h4>
+                
+                @if (DLSInterface.loggedEmail == null || DLSInterface.loggedEmail.Equals(""))
+                {
+                    <h4 style="position:absolute; top: 0px; right: 15vw;">@DLSInterface.loggedEmail <a class="btn btn-default" href="@Url.Action("Create", "Person")">Register</a></h4>
+                }
                
 
 
@@ -80,7 +100,15 @@
            
         </div>
     </div>
-   
+    @if (DLSInterface.ClassEntered != -1 && DLSInterface.ClassEntered != 0)
+    {
+        <nav style="position:relative; left: 10vw; width: 80%;">
+            <ul class="nav nav-pills">
+               
+            </ul>
+        </nav>
+    }
+    
         
 
         <div class="container body-content">
