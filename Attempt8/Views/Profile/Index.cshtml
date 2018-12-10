@@ -1,0 +1,120 @@
+﻿
+@model Attempt8.Models.ProfileEditViewModels
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+          </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RelationshipStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RelationshipStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Designation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Designation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonalInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonalInfo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <!--<dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id)
+        </dd>-->
+        @if (DLSInterface.isTeacher(DLSInterface.loggedEmail)== false)
+        {
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfClassesEnrolled)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfClassesEnrolled)
+        </dd>
+        }
+        <dd>
+        @if (Model.ProfilePicture != null)
+        {
+
+            var base64 = Convert.ToBase64String(@Model.ProfilePicture);
+            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+
+            <div class="img-rounded">
+                <img  src="@imgSrc" height="500" width="500"/>
+            </div>
+        }
+        </dd>
+
+    </dl>
+    <p>
+       
+        @Html.ActionLink("Edit", "Edit", "Profile") 
+    </p>
+    <p>
+
+        @Html.ActionLink("Deactivate Account", "Delete", "Profile")
+    </p>
+
+</div>
+
+   
+

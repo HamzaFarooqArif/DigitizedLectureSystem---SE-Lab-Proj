@@ -109,7 +109,11 @@
                 {
                     <h4 style="position:absolute; top: 0px; right: 15vw;">@DLSInterface.loggedEmail <a class="btn btn-default" href="@Url.Action("Create", "Person")">Register</a></h4>
                 }
-               
+                else
+                {
+                    <a class="navLink" style="position: absolute; left: 78%; top: 30%; color:#D5E3EA; font-weight: bold;" href=@Url.Action("Index", "Profile")><span class="icon-person"></span><b>   View Profile</b></a>
+                    
+                }
 
 
                 @*<h4 class="text-right">@DLSInterface.loggedEmail <a class="btn btn-default" href="@Url.Action("Login", "Person")">@LogText</a></h4>*@
