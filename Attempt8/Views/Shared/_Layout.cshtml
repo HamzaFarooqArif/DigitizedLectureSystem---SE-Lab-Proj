@@ -51,8 +51,19 @@
     string actionName = DLSInterface.getActionName(Request.RawUrl);
     string controllerName = DLSInterface.getControllerName(Request.RawUrl);
 
-   
     
+    string newsFeedActive = "false";
+   
+
+    
+
+    if(controllerName.Equals("Post") && actionName.Equals(""))
+    {
+        
+        newsFeedActive = "active";
+        
+       
+    }
 
    
     }
@@ -79,7 +90,13 @@
                     <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("About", "Home")>About</a></li>
                     <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("Contact", "Home")>Contact</a></li>
                     
-                    
+                    @if (DLSInterface.loggedEmail != null)
+                    {
+                        <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("Create", "Class")>Create Class</a></li>
+                        <li><a class="navLink" color:#D5E3EA; font-weight: bold;" href=@Url.Action("Create", "School")>Create School</a></li>
+                        <li><a class="navLink" color:#D5E3EA; font-weight bold;" href=@Url.Action("ViewClass", "Class")>View Class</a></li>
+                        
+                    }
                 </ul>
                 @*<div style="border:1px solid; width: 100px;">
                     
@@ -104,6 +121,7 @@
     {
         <nav style="position:relative; left: 10vw; width: 80%;">
             <ul class="nav nav-pills">
+                <li class="@newsFeedActive">@Html.ActionLink("News Feed", "Index", "Post")</li>
                
             </ul>
         </nav>

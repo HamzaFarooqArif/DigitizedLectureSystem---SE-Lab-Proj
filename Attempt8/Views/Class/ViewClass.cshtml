@@ -1,0 +1,110 @@
+﻿@model Attempt8.Models.ViewClassViewModels
+
+@{
+    ViewBag.Title = "ViewClass";
+    /*List<string> lst = new List<string>();
+    List<string> classLst = new List<string>();
+    SE_ProjectEntities db = new SE_ProjectEntities();
+
+    foreach (SchoolTbl s in db.SchoolTbls)
+    {
+        lst.Add(s.Name);
+    }
+
+    foreach (ClassTbl c in db.ClassTbls)
+    {
+        classLst.Add(c.Name);
+    }*/
+}
+
+<style>
+    .required:after {
+        content: "*";
+        font-weight: bold;
+        color: red;
+    }
+</style>
+
+
+<br>
+<br>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div style="width: 40%; height: 450px; border: 1px solid; margin: auto; padding-left: 1%; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+        <h2 class="text-center">Choose Class</h2>
+        <br>
+        <div class="form-horizontal">
+            @*<h4>ViewClassViewModels</h4>*@
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.schoolName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.schoolName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.schoolName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.className, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.className, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.className, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    @*
+                      @Html.DropDownListFor(m => m.schoolName, new SelectList(lst), new { @class = "form-control" })
+                    @Html.DropDownListFor(m => m.className, new SelectList(classLst), new { @class = "form-control" })
+                    *@
+                    @if (ViewBag.SchoolList != null)
+                {
+                        @Html.LabelFor(model => model.schoolName, htmlAttributes: new { @class = "control-label col-md-2 required", style = "width: auto; position: relative; right: 4%;" })
+                        @Html.DropDownListFor(model => model.schoolName, ViewBag.SchoolList as SelectList, "--Select School--", new { @class = "form-control" })
+                        <br>
+                        @Html.LabelFor(model => model.className, htmlAttributes: new { @class = "control-label col-md-2 required", style = "width: auto; position: relative; right: 4%;" })
+                        @Html.DropDownListFor(model => model.className, new SelectList(""), "--Select Class--", new { @class = "form-control" })
+                    }
+                    <h4 class="text-danger">@ViewBag.Warn</h4>
+                    <div style="position: relative; left: 61%;">
+                        <input type="submit" value="Enter" class="btn btn-default" />
+                    </div>
+                    <div>
+                        <br>
+                        <hr>
+                        
+                        <a class="btn btn-primary" href="@Url.Action("AddClass", "Person")">Enroll in Class</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+        }
+
+        @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#schoolName").change(function () {
+                    $.get("/Class/GetClassList", { schoolName: $("#schoolName").find(":selected").text() }, function (data) {
+                        $("#className").empty();
+                        $.each(data, function (index, row) {
+                            $("#className").append("<option>" + row + "</option>")
+                        });
+                    });
+                })
+            });
+        </script>
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

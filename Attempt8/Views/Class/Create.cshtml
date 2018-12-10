@@ -1,0 +1,84 @@
+﻿@model Attempt8.Models.ClassViewModels
+
+@{
+    ViewBag.Title = "Create";
+    List<string> lst = new List<string>();
+    SE_ProjectEntities db = new SE_ProjectEntities();
+
+    foreach(SchoolTbl s in db.SchoolTbls)
+    {
+        lst.Add(s.Name);
+    }
+}
+
+<style>
+    .required:after
+    {
+        content: "*";
+        font-weight: bold;
+        color: red;
+    }
+</style>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <br>
+    <br>
+    <div style="width: 40%; height: 550px; border: 1px solid; margin: auto; padding-left: 1%; border-radius: 10px; box-shadow: 5px 10px 50px; background-color: #F9F9F9;">
+        <div class="form-horizontal">
+            @*<h4>ClassViewModels</h4>*@
+            <h2 class="text-center">Create Class</h2>
+            <br>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2 required", style = "width: auto; position: relative; left: 17%;"}) 
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control", placeholder="Enter Class Name", style="margin-left: 22%;" } })
+                    @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.classCode, htmlAttributes: new { @class = "control-label col-md-2 required", style = "width: auto; position: relative; left: 17%;"})
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.classCode, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Class Code", style = "margin-left: 22%;" } })
+                    @Html.ValidationMessageFor(model => model.classCode, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.schoolName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.schoolName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.schoolName, "", new { @class = "text-danger" })
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.schoolName, htmlAttributes: new { @class = "control-label col-md-2 required", style = "width: auto; position: relative; left: 17%;" })
+                <div class="col-md-offset-2 col-md-10">
+                    @Html.DropDownListFor(m => m.schoolName, new SelectList(lst), "--Select School--", new { @class = "form-control" })
+                    <h3 class="text-danger">@ViewBag.Warn</h3>
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+            <div style="margin-left: 20%;">
+                <br>
+                <hr>
+                <a class="btn btn-primary" href="@Url.Action("ViewClass", "Class")">View Class</a>
+                <a class="btn btn-primary" href="@Url.Action("AddClass", "Person")">Enroll in Class</a>
+            </div>
+        </div>
+    </div>
+    <br>
+        }
+
+        @*<div>
+                @Html.ActionLink("Back", "ViewClass","Class")
+            </div>*@
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

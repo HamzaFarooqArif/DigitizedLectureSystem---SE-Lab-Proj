@@ -176,8 +176,11 @@
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClassController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Controllers\SchoolController.cs" />
     <Compile Include="DLSInterface.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -343,7 +346,13 @@
     <Content Include="Views\Person\Create.cshtml" />
     <Content Include="Views\Person\Index.cshtml" />
     <Content Include="Views\Person\Login.cshtml" />
+    <Content Include="Views\School\Create.cshtml" />
+    <Content Include="Views\Class\Create.cshtml" />
     <Content Include="Views\Person\AddClass.cshtml" />
+    <Content Include="Views\Class\ViewClass.cshtml" />
+    <Content Include="Views\Class\ClassDashboard.cshtml" />
+    <Content Include="Views\Post\Create.cshtml" />
+    <Content Include="Views\Post\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
