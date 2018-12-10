@@ -220,7 +220,7 @@ namespace Attempt8.Controllers
                     }
                 }
                 DLSInterface.ClassEntered = actualClassId;
-                return RedirectToAction("ViewClass", "Class");
+                return RedirectToAction("Index", "Post");
 
             }
             catch

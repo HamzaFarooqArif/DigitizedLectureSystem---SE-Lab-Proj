@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Attempt8.Models.PostViewModels>
+
+@{
+    ViewBag.Title = "Posts";
+
+    SE_ProjectEntities db = new SE_ProjectEntities();
+
+    string className = db.ClassTbls.Where(c => c.Id == DLSInterface.ClassEntered).FirstOrDefault().Name;
+
+}
+
+<h2 class="text-center">@className</h2>
+
+<div>
+    <a class="btn btn-primary" href=@Url.Action("Create", "Post")>Create New Post</a>
+    <a class="btn btn-primary" href=@Url.Action("Index", "Post")>Refresh</a>
+</div>
+<br />
+
+@if (Model != null)
+{
+    foreach (var item in Model)
+    {
+        <div style="border: 5px solid #3E7AAB; border-radius: 5px; padding: 10px; width: 80%; height: auto; margin: auto;">
+            <div>
+                <div style="background-color: #F9F9F9">
+                    @{
+                        DLSInterface.ImageFromEmail(item.Email);
+                        if (DLSInterface.profileImage != null)
+                        {
+                            var base64 = Convert.ToBase64String(DLSInterface.profileImage);
+                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                            <img src="@imgSrc" class="img-circle" style="max-width: 10%; max-height: 10%;" />
+                        }
+                        else
+                        {
+                            <i class="icon-person" style="font-size: 50px;"></i>
+                        }
+                    }
+                    <div>@DLSInterface.getNameByEmail(item.Email)
+                    </div>
+                   
+                   
+
+                </div>
+            </div>
+            
+            
+            
+            <div>
+                <h4 style="display: inline-block;">Summary &nbsp; &nbsp;</h4>
+                @Html.DisplayFor(model => item.Summary)
+            </div>
+            <div>
+                <h4 style="display: inline-block;">Details &nbsp; &nbsp; &nbsp; &nbsp;</h4>
+                @Html.DisplayFor(model => item.details)
+            </div>
+            @if (item.image != null)
+            {
+                    var base64 = Convert.ToBase64String(item.image);
+                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@imgSrc" style="max-width: 100%; max-height: 70%; display: block; margin:auto;" />
+            }
+          
+            
+        </div>
+            <br>
+
+                        }
+                    }
+                    
+
+
