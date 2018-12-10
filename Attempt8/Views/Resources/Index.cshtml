@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Attempt8.Models.ResourceViewModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="text-center">Resources</h2>
+@if (DLSInterface.isTeacher(DLSInterface.loggedEmail))
+{
+    <a href=@Url.Action("Create", "Resources") class="btn btn-default" role="button">Add more Material</a>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.name)*@
+            <p>Sorted By Date</p>
+        </th>
+        <th></th>
+    </tr>
+@if (Model != null)
+{
+foreach (var item in Model)
+{
+    <tr>
+        <td>
+           
+            @Html.ActionLink(item.name, "Details", new { id = item.id })
+        </td>
+     
+    </tr>
+}
+}
+</table>
+<hr>
+<p>
+    @Html.ActionLink("Back", "Index", "Post")
+</p>

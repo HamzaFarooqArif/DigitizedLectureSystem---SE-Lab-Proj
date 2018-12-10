@@ -53,6 +53,7 @@
 
     
     string newsFeedActive = "false";
+    string resourcesActive = "false";
    
 
     
@@ -61,10 +62,17 @@
     {
         
         newsFeedActive = "active";
-        
+        resourcesActive = "false";
        
     }
 
+    if(controllerName.Equals("Resources"))
+    {
+       
+        newsFeedActive = "false";
+        resourcesActive = "active";
+       
+    }
    
     }
 
@@ -126,6 +134,7 @@
         <nav style="position:relative; left: 10vw; width: 80%;">
             <ul class="nav nav-pills">
                 <li class="@newsFeedActive">@Html.ActionLink("News Feed", "Index", "Post")</li>
+                <li class="@resourcesActive">@Html.ActionLink("Resources", "Index", "Resources")</li>
                
             </ul>
         </nav>
